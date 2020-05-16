@@ -30,7 +30,7 @@ public class BeerController {
     }
 
     @PostMapping
-    public ResponseEntity saneNewBeer(@RequestBody BeerDto beerObj) {
+    public ResponseEntity saveNewBeer(@RequestBody BeerDto beerObj) {
         //TODO impl
         return new ResponseEntity(HttpStatus.CREATED);
     }
