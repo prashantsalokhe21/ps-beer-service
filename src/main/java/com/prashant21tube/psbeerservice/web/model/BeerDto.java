@@ -40,7 +40,7 @@ public class BeerDto {
     private BeerStyleEnum beerStyle;
     @NotNull
     @Positive
-    private String ups;
+    private Long upc;
 
     @Null
     private OffsetDateTime createdDate;
